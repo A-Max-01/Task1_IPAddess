@@ -39,7 +39,7 @@ def solution():
     elif 192 <= ip[0] <= 223:
         Class_C(ip)
     elif 224 <= ip[0] <= 239:
-        Class_E(ip)
+        Class_D(ip)
     elif 240 <= ip[0] <= 255:
         Class_E(ip)
 
